@@ -21,7 +21,6 @@ pool.query(, (error,results) => {
     console.log(results.rows)
 })
 
-2. 
 ## In case of error [Type of error], here are the steps that you need to consider:
  1. net.js:989
       throw new ERR_SOCKET_BAD_PORT(port);
